@@ -1,0 +1,57 @@
+[global]
+   font = Ubuntu Mono 11
+    allow_markup = yes
+    format = "<b>%s</b>\n%b"
+    sort = yes
+    indicate_hidden = yes
+    alignment = left
+    bounce_freq = 0
+    show_age_threshold = 60
+    word_wrap = yes
+    ignore_newline = no
+    geometry = "300x5-30+20"
+    shrink = no
+    transparency = 0
+    idle_threshold = 120
+    monitor = 0
+    sticky_history = yes
+    history_length = 20
+    show_indicators = yes
+    line_height = 0
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 16
+    separator_color = frame
+    startup_notification = false
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/firefox -new-tab
+    icon_position = off
+    icon_folders = /usr/share/icons/Papirus-Dark/16x16/status/:/usr/share/icons/Papirus-Dark/16x16/devices/
+
+[frame]
+    width = 3
+    color = "#D8DEE9"
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+grave
+    context = ctrl+shift+period
+
+[urgency_low]
+    background = "#2E3440"
+    foreground = "#D8DEE9"
+    frame_color = "#D8DEE9"
+    timeout = 4
+
+[urgency_normal]
+    background = "#2E3440"
+    foreground = "#D8DEE9"
+    frame_color = "#D8DEE9"
+    timeout = 4
+
+[urgency_critical]
+    background = "#ff5555"
+    foreground = "#f8f8f2"
+    frame_color = "#f8f8f2"
+    timeout = 0

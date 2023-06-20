@@ -1,0 +1,24 @@
+sudo vim /etc/systemd/logind.conf
+
+uncomment #NAutoVTs=6
+
+make it NAutoVTs=1
+
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
+
+cd /etc/systemd/system/getty@tty1.service.d
+
+sudo vim override.conf
+
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin zed --noclear %I $TERM
+
+sudo systemctl daemon-reload
+
+cd ~
+
+echo "exec startx" > .bash_profile
+
+echo "exec i3" > .xinitrc
+

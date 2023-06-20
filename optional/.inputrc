@@ -1,0 +1,10 @@
+set colored-stats On
+set colored-completion-prefix On
+set show-all-if-ambiguous on
+set completion-ignore-case on
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\C-b":"cd ..\n"
+"\C-h":"cd ~\n"
+"\C-f":"cd ~/.config/\n"
+"\C-g":"cd ~/Documents/GitHub/\n"

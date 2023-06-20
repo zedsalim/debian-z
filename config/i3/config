@@ -1,0 +1,59 @@
+######################################
+#            External
+
+include $HOME/.config/i3/workspaces.conf
+include $HOME/.config/i3/colors.conf
+exec --no-startup-id ibus-daemon -drx
+exec_always feh --bg-fill ~/.config/wallpapers/wall.png
+#exec_always --no-startup-id ~/.fehbg
+exec_always --no-startup-id ~/.config/i3/autostart.sh
+exec --no-startup-id ~/.config/scripts/help_notification.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec --no-startup-id ~/.config/scripts/resolution.sh
+#exec --no-startup-id ~/.config/scripts/resolution-double.sh
+######################################
+#              Vars
+
+set $mod Mod4 
+set $g_inner 9
+set $g_outer 6
+######################################
+#             Theme
+
+font pango:monospace 8
+new_window 1pixel
+gaps inner $g_inner
+gaps outer $g_outer
+default_border pixel 2
+default_floating_border pixel 2
+floating_modifier $mod
+bindsym $mod+q kill
+
+######################################
+#           	Gaps
+
+bindsym $mod+Shift+n 	gaps inner current set $g_inner; gaps outer current set $g_outer
+bindsym $mod+x		gaps outer current plus 5
+bindsym $mod+Shift+x	gaps outer current minus 5 
+bindsym $mod+z		gaps inner current plus 5
+bindsym $mod+Shift+z	gaps inner current minus 5
+######################################
+#    	 System keybindings
+
+# Reboot
+bindsym $mod+Shift+b exec "sudo reboot"
+# Power off
+bindsym $mod+Shift+s exec "sudo shutdown now"
+
+
+# Browser
+bindsym $mod+w exec brave-browser
+
+# Open Alacritty in floating mode
+bindsym $mod+Shift+Return exec alacritty --class AlacrittyFloating
+
+# Set AlacrittyFloating window to floating mode
+for_window [class="AlacrittyFloating"] floating enable, move position center
+
+# Open sxiv in fullscreen mode
+for_window [class="Sxiv"] fullscreen

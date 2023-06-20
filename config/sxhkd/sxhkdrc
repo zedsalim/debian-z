@@ -1,0 +1,142 @@
+super + shift + h
+    	mupdf "$HOME/.config/guide.pdf"
+
+alt + v
+	alacritty -e "ranger" ~/Downloads/Watch
+
+alt + c
+	alacritty -e ~/.config/scripts/conf.sh
+
+alt + t
+	source ~/.config/scripts/themes.sh
+
+alt + s
+	feh -F "$HOME/Pictures/schedule.png"
+
+alt + b 
+	source ~/.config/scripts/bookmarks.sh
+
+# BG Selector
+
+super + F1
+	source ~/.config/scripts/wallpaper-single-display.sh
+
+super + F2
+	source ~/.config/scripts/wallpaper-double-display.sh
+
+# Programs
+
+super + Return
+	alacritty
+
+super + p
+   	rofi -show drun -line padding 4 -hide-scrollbar -show-icons
+   	
+super + d
+	discord
+
+super + r
+   	alacritty -e "ranger"
+
+super + n
+	pcmanfm
+
+super + g
+	github-desktop
+
+super + w
+   	brave-browser
+
+super + c 
+	codium
+
+super + t
+   	telegram-desktop
+
+super + s
+   	flameshot gui
+
+alt + w
+ 	rofi -show
+
+# Audio Keybindings
+
+XF86AudioMute
+	amixer set Master toggle
+
+XF86AudioLowerVolume
+	amixer set Master 2%-
+
+XF86AudioRaiseVolume
+	amixer set Master 2%+
+
+# Brightness bindings
+
+XF86MonBrightnessDown
+    ~/.config/scripts/brightness-control.sh XF86MonBrightnessDown
+
+XF86MonBrightnessUp
+    ~/.config/scripts/brightness-control.sh XF86MonBrightnessUp
+
+# Switch between keyboard languages
+
+alt + space
+    source ~/.config/scripts/keyboard_layout.sh
+
+#i3 Specific Keybindings
+
+super + q
+    i3-msg kill
+
+super + shift + q
+     	i3-msg exit
+
+super + shift + c
+    i3-msg reload; notify-send 'i3-gaps' 'Reloaded'
+
+super + shift + r
+    i3-msg restart; notify-send 'i3-gaps' 'Restarted'
+
+super + Escape
+   	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
+
+super + {v,h}
+    i3-msg split {v,h}
+
+super + f
+    i3-msg fullscreen toggle
+
+super + shift + f
+    i3-msg floating toggle
+
+super + control + space
+    i3-msg focus mode_toggle
+
+super + alt + a
+    i3-msg focus parent
+
+# Workspaces
+
+super + {1-9,0}
+    i3-msg workspace {1-9,10}
+
+super + shift+{1-9,0}
+    i3-msg move container to workspace number {1-9,10}
+    
+# Movement
+
+super+{h,j,k,l}
+    i3-msg focus {left,down,up,right}
+
+super+shift+{h,j,k,l}
+    i3-msg move {left,down,up,right}
+    
+super+{Left,Down,Up,Right}
+    i3-msg focus {left,down,up,right}
+    
+super+shift+{Left,Down,Up,Right}
+    i3-msg move {left,down,up,right}
+
+super + ctrl + {Left,Down,Up,Right}
+    i3-msg resize {grow width 1 px or 1 ppt, shrink height 1 px or 1 ppt, grow height 1 px or 1 ppt, shrink width 1 px or 1 ppt}
+

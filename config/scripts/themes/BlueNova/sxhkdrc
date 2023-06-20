@@ -1,0 +1,167 @@
+super + shift + h
+    mupdf "$HOME/.config/guide.pdf"
+
+super + F1
+	feh -F "$HOME/Pictures/work.png"
+
+
+super + Escape
+    pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
+
+# BG Ramdom
+
+super + b
+	feh --randomize --bg-fill ~/.config/wallpapers/
+
+super + shift + f
+	feh --randomize --bg-fill ~/.config/wallpapers/ --randomize --bg-fill ~/.config/wallpapers/
+
+
+# Apps Keybindings
+
+super + Return
+   kitty
+
+super + p
+   	rofi -show drun -line padding 4 -hide-scrollbar -show-icons
+   	
+super + d
+	discord
+
+super + shift + q
+     	i3-msg exit
+
+super + r
+   	kitty -e "ranger"
+
+super + n
+	thunar
+
+super + g
+	github-desktop
+
+alt + p
+ 	rofi -show
+
+super + w
+    	brave-browser
+
+super + c 
+	codium
+
+super + t
+    	telegram-desktop
+
+super + s
+    	flameshot gui
+
+super + m 
+	pavucontrol
+
+# Audio Keybindings
+
+XF86AudioMute
+	amixer set Master toggle
+
+XF86AudioLowerVolume
+	amixer set Master 2%-
+
+XF86AudioRaiseVolume
+	amixer set Master 2%+
+
+alt + d
+        amixer -c 1 -- sset Master 2db+
+
+alt + a
+        amixer -c 1 -- sset Master 2db-
+
+XF86AudioPlay
+    playerctl play-pause
+
+ctrl + alt + p
+    playerctl play-pause
+
+XF86AudioNext
+    playerctl next
+
+XF86AudioPrev
+    playerctl previous
+
+ctrl + shift + period
+    playerctl next
+
+ctrl + shift + comma
+    playerctl previous
+
+XF86AudioStop
+    playerctl stop
+
+alt + {h,j,k,l}
+   mpc {prev,next,play,pause}
+
+# Brightness bindings
+
+XF86MonBrightnessDown
+    ~/.config/i3/scripts/brightness-control.sh XF86MonBrightnessDown
+
+XF86MonBrightnessUp
+    ~/.config/i3/scripts/brightness-control.sh XF86MonBrightnessUp
+
+# Switch between keyboard languages
+alt + space
+    source ~/.config/i3/scripts/keyboard_layout.sh
+
+#i3 Specific Keybindings
+
+super + {v,h}
+    i3-msg split {v,h}
+
+super + f
+    i3-msg fullscreen toggle
+
+super + shift + space
+    i3-msg floating toggle
+
+super + control + space
+    i3-msg focus mode_toggle
+
+super + alt + a
+    i3-msg focus parent
+
+# Workspaces
+
+super + {1-9,0}
+    i3-msg workspace {1-9,10}
+
+super + shift+{1-9,0}
+    i3-msg move container to workspace number {1-9,10}
+    
+# Movement
+
+super+{h,j,k,l}
+    i3-msg focus {left,down,up,right}
+
+super+shift+{h,j,k,l}
+    i3-msg move {left,down,up,right}
+    
+super+{Left,Down,Up,Right}
+    i3-msg focus {left,down,up,right}
+    
+super+shift+{Left,Down,Up,Right}
+    i3-msg move {left,down,up,right}
+
+
+#  Other bindings
+
+super + q
+    i3-msg kill
+
+super + shift + c
+    i3-msg reload
+
+super + shift + r
+    i3-msg restart; notify-send 'i3-gaps' 'Restarted'
+
+super + ctrl + {Left,Down,Up,Right}
+    i3-msg resize {grow width 1 px or 1 ppt, shrink height 1 px or 1 ppt, grow height 1 px or 1 ppt, shrink width 1 px or 1 ppt}
+
