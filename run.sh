@@ -32,7 +32,7 @@ sudo nala install -y intel-microcode
 sudo nala install -y network-manager-gnome
 
 # Appearance and Customization
-sudo nala install -y lxappearance arandr
+sudo nala install -y lxappearance arandr xclip
 
 # System Utilities
 sudo nala install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
@@ -48,7 +48,7 @@ sudo nala install -y exa
 # File Managers
 sudo nala install -y pcmanfm ranger
 
-# XFCE Settings and Terminal
+# XFCE Settings
 sudo nala install -y xfce4-settings xfce4-power-manager
 
 # Audio Control

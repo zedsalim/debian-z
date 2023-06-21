@@ -16,6 +16,9 @@ alt + s
 alt + b 
 	source ~/.config/scripts/bookmarks.sh
 
+alt + y 
+	source ~/.config/scripts/mpv-youtube.sh
+
 # BG Selector
 
 super + F1
