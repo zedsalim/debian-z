@@ -2,8 +2,8 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/zed/.gtkrc-2.0.mine"
-gtk-theme-name="Dracula"
-gtk-icon-theme-name="Dracula-icons"
+gtk-theme-name="Adwaita-dark"
+gtk-icon-theme-name="Flat-Remix-Grey-Dark"
 gtk-font-name="Sans 10"
 gtk-cursor-theme-name="Sunity-cursors"
 gtk-cursor-theme-size=0
