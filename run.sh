@@ -75,7 +75,7 @@ sudo nala install -y telegram-desktop
 sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu
 
 # Archive Management
-sudo nala install -y unzip zip
+sudo nala install -y unzip file-roller
 
 # Text Editors
 sudo nala install -y geany vim mousepad
