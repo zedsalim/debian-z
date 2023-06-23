@@ -207,6 +207,7 @@ tar xf Sunity-cursors.tar.gz
 tar xf Adwaita-dark.tar
 tar -xf Papirus.tar.xz
 unzip Nordic.zip
+unzip Blackout.zip
 unzip Flat-Remix-Grey-Dark.zip
 tar xzf Dracula.tar.gz
 tar xzf Dracula-icons.tar.gz
@@ -214,6 +215,7 @@ cp -r BlueSky-Clean-Dark ~/.themes
 cp -r Dracula ~/.themes
 cp -r Adwaita-dark ~/.themes
 cp -r Nordic ~/.themes 
+cp -r Blackout ~/.themes
 cp -r Flat-Remix-Grey-Dark ~/.icons
 cp -r Papirus ~/.icons
 cp -r Dracula-icons/ ~/.icons/

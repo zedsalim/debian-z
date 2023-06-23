@@ -1,0 +1,183 @@
+[colors]
+background = ##111111
+background-alt = #222222
+foreground = #FFFFFF
+primary = #FFFFFF
+secondary = #828482
+alert = #cc6666
+disabled = #00000
+
+[bar/mybar]
+width = 100%
+height = 21pt
+radius = 0.0
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 3pt
+border-size = 1pt
+border-color = #FFFFFF
+padding-left = 0
+padding-right = 1
+module-margin = 1
+;separator = |
+fixed-center = true
+separator-foreground = ${colors.disabled}
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+modules-left = menu date xwindow
+modules-center = i3
+modules-right = pulseaudio xkeyboard memory cpu wlan battery 
+cursor-click = pointer
+cursor-scroll = ns-resize
+enable-ipc = true
+tray-position = right
+wm-restack = i3
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+label-unfocused = %index%
+label-unfocused-padding = 2
+label-visible = %index%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+label-urgent = %index%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+[module/xworkspaces]
+type = internal/xworkspaces
+label-active = %name%
+label-active-background = ${colors.background-alt}
+label-active-underline= ${colors.primary}
+label-active-padding = 1
+label-occupied = %name%
+label-occupied-padding = 1
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+label-empty = %name%
+label-empty-foreground = ${colors.disabled}
+label-empty-padding = 1
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+mount-0 = /home
+label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.disabled}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = <ramp-volume> <label-volume>
+format-volume-prefix = "VOL "
+format-volume-prefix-foreground = ${colors.foreground}
+label-volume = %percentage%%
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+label-muted = 🔇 muted
+label-muted-foreground = ${colors.disabled}
+format-muted = <label-muted>
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+label-layout = %layout%
+label-layout-foreground = ${colors.foreground}
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-foreground = ${colors.background}
+label-indicator-background = ${colors.secondary}
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground}
+label = %percentage_used:2%%
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground}
+label = %percentage:2%%
+
+[network-base]
+type = internal/network
+interval = 5
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+label-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected
+
+[module/wlan]
+inherit = network-base
+interface-type = wireless
+label-connected = %{F#F0C674}%ifname%%{F-} %essid%
+
+[module/eth]
+inherit = network-base
+interface-type = wired
+label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
+
+[module/date]
+type = internal/date
+interval = 1
+date = %H:%M
+date-alt = %Y-%m-%d %H:%M:%S
+label = %date%
+label-foreground = ${colors.foreground}
+
+[module/battery]
+type = internal/battery
+; This is useful in case the battery never reports 100% charge
+; Default: 100
+full-at = 99
+; format-low once this charge percentage is reached
+; Default: 10
+; New in version 3.6.0
+low-at = 5
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = ADP1
+; If an inotify event haven't been reported in this many
+; seconds, manually poll for new values.
+;
+; Needed as a fallback for systems that don't report events
+; on sysfs/procfs.
+;
+; Disable polling by setting the interval to 0.
+;
+; Default: 5
+poll-interval = 5
+
+[module/menu]
+type = custom/menu
+menu-0-1 = Files
+menu-0-1-exec = thunar &
+menu-0-2 = Terminal
+menu-0-2-exec = kitty &
+menu-0-3 = Browser
+menu-0-3-exec = brave-browser &
+format = <label-toggle> <menu>
+format-foreground = ${color.primary}
+label-open = 
+label-close = 
