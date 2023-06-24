@@ -11,6 +11,8 @@ sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev wmctrl
 # Python
 sudo nala install -y python3-pip
 
+# npm
+sudo nala install -y npm
 # Java
 #sudo nala install default-jdk
 
