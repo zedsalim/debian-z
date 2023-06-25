@@ -25,7 +25,7 @@
 - **File Manager:** [pcmanfm](https://github.com/lxde/pcmanfm)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
 
----
+## Available Themes
 
 | BlueNova | Dracula | Darkness | Nord | Horizon | Pink |
 |--------------|--------------|--------------|--------------|--------------|--------------|
@@ -34,6 +34,7 @@
 | ![Screenshot 1]([ign]/img/bluenova/s3.png) | ![Screenshot 2]([ign]/img/dracula/s3.png) | ![Screenshot 3]([ign]/img/darkness/s3.png) | ![Screenshot 3]([ign]/img/nord/s3.png) |  ![Screenshot 3]([ign]/img/horizon/s3.png) |  ![Screenshot 3]([ign]/img/pink/s3.png) |
 | ![Screenshot 1]([ign]/img/bluenova/s4.png) | ![Screenshot 2]([ign]/img/dracula/s4.png) | ![Screenshot 3]([ign]/img/darkness/s4.png) | ![Screenshot 3]([ign]/img/nord/s4.png) |  ![Screenshot 3]([ign]/img/horizon/s4.png) |  ![Screenshot 3]([ign]/img/pink/s4.png) |
 
+---
 
 This project is a shell script that automates the installation process for a minimal Debian system, along with the i3 window manager and Ly Console Display Manager. It aims to provide an easy and efficient way to set up a Debian-based desktop environment with a Stylish lightweight and customizable window manager.
 
