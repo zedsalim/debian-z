@@ -8,7 +8,7 @@
   <h3 align="center">Debian Minimal Setup with i3</h3>
 
   <p align="center">
-    Automate and Style Your Debian Setup with BlueNova!
+    Automate and Style Your Debian Setup with Debian-Z!
     <br />
 </div>
 
