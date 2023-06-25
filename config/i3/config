@@ -4,7 +4,7 @@
 include $HOME/.config/i3/workspaces.conf
 include $HOME/.config/i3/colors.conf
 exec --no-startup-id ibus-daemon -drx
-exec_always feh --bg-fill ~/.config/wallpapers/wall.png
+exec_always feh --bg-fill ~/.config/wallpapers/wall.jpg
 #exec_always --no-startup-id ~/.fehbg
 exec_always --no-startup-id ~/.config/i3/autostart.sh
 exec --no-startup-id ~/.config/scripts/help_notification.sh

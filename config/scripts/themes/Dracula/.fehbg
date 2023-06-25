@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/zed/.config/wallpapers/wall.jpg' 
+feh --no-fehbg --bg-fill '/home/$USER/.config/wallpapers/wall.jpg' 
