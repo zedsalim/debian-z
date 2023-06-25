@@ -12,3 +12,5 @@ cp ~/.config/scripts/themes/Dracula/config ~/.config/polybar/
 
 cp ~/.config/scripts/themes/Dracula/settings.ini ~/.config/gtk-3.0/
 cp ~/.config/scripts/themes/Dracula/.gtkrc-2.0 ~/
+
+ i3-msg restart; notify-send 'Theme Set To:' 'Dracula'
