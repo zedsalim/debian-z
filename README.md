@@ -126,7 +126,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Exits i3 window manager</td>
       </tr>
     </table>
-  
     <h3>Application Keybindings:</h3>
     <table>
       <tr>
@@ -182,7 +181,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Opens flameshot screenshot tool (GUI mode)</td>
       </tr>
     </table>
-  
     <h3>Audio Keybindings:</h3>
     <table>
       <tr>
@@ -202,7 +200,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Increases audio volume by 2%</td>
       </tr>
     </table>
-  
     <h3>Brightness Keybindings:</h3>
     <table>
       <tr>
@@ -217,8 +214,7 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>XF86MonBrightnessUp</td>
         <td>Increases audio volume by 10%</td>
       </tr>
-    </table>
-  
+    </table> 
     <h3>i3 Window Manager Keybindings:</h3>
     <table>
       <tr>
@@ -261,9 +257,7 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>alt + shift + e</td>
         <td>Change container layout to toggle split</td>
       </tr>
-
     </table>
-  
     <h3>Workspace Keybindings:</h3>
     <table>
       <tr>
@@ -279,7 +273,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Moves the current container to the specified workspace</td>
       </tr>
     </table>
-  
     <h3>Window Movement Keybindings:</h3>
     <table>
       <tr>
@@ -307,7 +300,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Focuses on the last two workspaces back and forth</td>
       </tr>
     </table>
-  
     <h3>Additional Keybindings:</h3>
     <table>
       <tr>
@@ -346,8 +338,7 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>F2</td>
         <td>Changing the wallpaper for two monitors</td>
       </tr>
-    </table>
-  
+    </table> 
     <h3>Gaps Keybindings:</h3>
     <table>
       <tr>
@@ -379,7 +370,6 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Resizes the current window</td>
       </tr>
     </table>
-  
     <h3>System Keybindings:</h3>
     <table>
       <tr>
@@ -402,16 +392,5 @@ README.md: A Markdown file serving as the main documentation or guide for this p
 * [Facebook](https://facebook.com/sxaliim) 
 * [Telegram](https://t.me/sxalim) 
 * salim.zaidi@univ-bouira.dz
-
-## Acknowledgments
-
-https://github.com/drewgrif/i3gaps-debian
-
-This script is built upon of the original script created by [drewgrif](https://github.com/drewgrif) . I would like to express my gratitude for his valuable contribution and the effort he put into developing the initial version. While I have made several tweaks and additions to suit my personal needs, the core functionality and inspiration behind this script stem from [drewgrif](https://github.com/drewgrif) work.
-
-I am thankful to the open-source community for providing a platform for collaboration and sharing of ideas. This project wouldn't have been possible without the collective efforts of developers and enthusiasts who continuously contribute to the improvement of tools and resources within the Linux ecosystem.
-
-Please note that any issues or limitations encountered in this modified script are solely my responsibility, and I encourage users to refer to the original script by [drewgrif](https://github.com/drewgrif) for a comprehensive understanding of its functionality and origins.   
- > The original script: [i3gaps-debian](https://github.com/drewgrif/i3gaps-debian)
 
 
