@@ -61,8 +61,6 @@ ls
 [ign]  fonts   theme     2-setup.sh     4-rice.sh   run_me.sh
 ```
 ### Categorization of the directories and the scripts
-The apps.sh script is to install all the apps and the packages needed for a minimal Debian system, you can custumize it as you need.   
-
 1. Scripts:   
 1-software.sh: A script responsible for install all the softwares and the packages needed for a minimal Debian system, **(you must see what inside it and you can custumize it as you need)**.   
 2-setup.sh: A script that handles the initial setup of the i3wm environment and Ly Console Display Manager.   
