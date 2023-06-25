@@ -13,4 +13,6 @@ cp ~/.config/scripts/themes/BlueNova/config ~/.config/polybar/
 cp ~/.config/scripts/themes/BlueNova/settings.ini ~/.config/gtk-3.0/
 cp ~/.config/scripts/themes/BlueNova/.gtkrc-2.0 ~/
 
+cp ~/.config/scripts/themes/BlueNova/.fehbg ~/
+
  i3-msg restart; notify-send 'Theme Set To:' 'BlueNove'

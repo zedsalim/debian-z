@@ -13,4 +13,6 @@ cp ~/.config/scripts/themes/Nord/config ~/.config/polybar/
 cp ~/.config/scripts/themes/Nord/settings.ini ~/.config/gtk-3.0/
 cp ~/.config/scripts/themes/Nord/.gtkrc-2.0 ~/
 
+cp ~/.config/scripts/themes/Nord/.fehbg ~/
+
  i3-msg restart; notify-send 'Theme Set To:' 'Nord'

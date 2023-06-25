@@ -13,4 +13,6 @@ cp ~/.config/scripts/themes/Pink/config ~/.config/polybar/
 cp ~/.config/scripts/themes/Pink/settings.ini ~/.config/gtk-3.0/
 cp ~/.config/scripts/themes/Pink/.gtkrc-2.0 ~/
 
+cp ~/.config/scripts/themes/Pink/.fehbg ~/
+
  i3-msg restart; notify-send 'Theme Set To:' 'Pink'

@@ -13,4 +13,6 @@ cp ~/.config/scripts/themes/Darkness/config ~/.config/polybar/
 cp ~/.config/scripts/themes/Darkness/settings.ini ~/.config/gtk-3.0/
 cp ~/.config/scripts/themes/Darkness/.gtkrc-2.0 ~/
 
+cp ~/.config/scripts/themes/Darkness/.fehbg ~/
+
  i3-msg restart; notify-send 'Theme Set To:' 'Darkness'
