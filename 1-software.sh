@@ -5,8 +5,7 @@ sudo apt install nala -y
 sudo nala update
 
 # X Window System and Input
-sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev
-#brightnessctl
+sudo nala install -y xorg xbacklight xvkbd xinput xorg-dev brightnessctl
 
 # Python
 sudo nala install -y python3-pip
@@ -16,7 +15,7 @@ sudo nala install -y python3-pip
 # Java
 #sudo nala install default-jdk
 
-# CPU Microcode Updates
+# CPU Microcode Updates (if you have amd cpu uncomment the first one and comment the second one)
 #sudo nala install -y amd64-microcode
 sudo nala install -y intel-microcode
 
@@ -57,8 +56,8 @@ sudo nala install -y cups simple-scan
 sudo systemctl enable cups
 
 # Bluetooth Support
-#sudo nala install -y bluez blueman
-#sudo systemctl enable bluetooth
+sudo nala install -y bluez blueman
+sudo systemctl enable bluetooth
 
 # Messaging
 sudo nala install -y telegram-desktop
