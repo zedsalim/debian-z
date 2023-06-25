@@ -49,7 +49,7 @@ To use this script and set up your Debian system with my i3 config and Ly, follo
 
 2. Follow my installation guide here [How To Install Debian-Z](https://github.com/zedsalim/debian-z-tutor) .
 
-3 . Once the base system is installed:
+3. Once the base system is installed:
 ### Install git and vim
 ```bash
 sudo apt install -y git vim
