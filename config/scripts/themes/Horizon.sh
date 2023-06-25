@@ -15,4 +15,4 @@ cp ~/.config/scripts/themes/Horizon/.gtkrc-2.0 ~/
 
 cp ~/.config/scripts/themes/Horizon/.fehbg ~/
 
- i3-msg restart; notify-send 'Them Set To:' 'Horizon'
+ i3-msg restart; notify-send 'Theme Set To:' 'Horizon'
