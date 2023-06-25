@@ -1,7 +1,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/zedsalim/debian-z">
     <img src="[ign]/logo.png" alt="Logo" width="70%">
   </a>
 
