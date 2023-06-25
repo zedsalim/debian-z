@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/zed/Documents/c_projects
+cd /home/$USER/Documents/c_projects
 
 # List all directories in the current directory
 dirs=(*/)

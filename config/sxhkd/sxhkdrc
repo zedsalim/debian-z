@@ -10,7 +10,7 @@ alt + c
 alt + t
 	source ~/.config/scripts/themes.sh
 
-Print
+alt + s
 	feh -F "$HOME/Pictures/schedule.png"
 
 alt + b 
@@ -56,7 +56,7 @@ super + c
 super + t
    	telegram-desktop
 
-super + s
+Print
    	flameshot gui
 
 alt + w

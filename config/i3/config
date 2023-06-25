@@ -14,7 +14,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 ######################################
 #              Vars
 
-set $mod Mod4 
+set $mod Mod4
+set $alt Mod1 
 set $g_inner 9
 set $g_outer 6
 ######################################
@@ -45,6 +46,10 @@ bindsym $mod+Shift+b exec "sudo reboot"
 # Power off
 bindsym $mod+Shift+s exec "sudo shutdown now"
 
+# change container layout (stacked, tabbed, toggle split)
+bindsym $alt+Shift+s layout stacking
+bindsym $alt+Shift+t layout tabbed
+bindsym $alt+Shift+e layout toggle split
 
 # Browser
 bindsym $mod+w exec brave-browser
