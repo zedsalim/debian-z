@@ -25,6 +25,11 @@
 - **File Manager:** [pcmanfm](https://github.com/lxde/pcmanfm)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
 
+
+This project is a shell script that automates the installation process for a minimal Debian system, along with the i3 window manager and Ly Console Display Manager. It aims to provide an easy and efficient way to set up a Debian-based desktop environment with a Stylish lightweight and customizable window manager.
+
+The script installs the necessary packages and applications required for daily drive and a functional and beutiful i3wm setup, with Ly Console Display Manager, and other recommended utilities. It also configures various system settings to optimize the user experience and provides a clean minimal and stylish i3 configuration. 
+
 ## Available Themes
 
 | BlueNova | Dracula | Darkness | Nord | Horizon | Pink |
@@ -35,10 +40,6 @@
 | ![Screenshot 1]([ign]/img/bluenova/s4.png) | ![Screenshot 2]([ign]/img/dracula/s4.png) | ![Screenshot 3]([ign]/img/darkness/s4.png) | ![Screenshot 3]([ign]/img/nord/s4.png) |  ![Screenshot 3]([ign]/img/horizon/s4.png) |  ![Screenshot 3]([ign]/img/pink/s4.png) |
 
 ---
-
-This project is a shell script that automates the installation process for a minimal Debian system, along with the i3 window manager and Ly Console Display Manager. It aims to provide an easy and efficient way to set up a Debian-based desktop environment with a Stylish lightweight and customizable window manager.
-
-The script installs the necessary packages and applications required for daily drive and a functional and beutiful i3wm setup, with Ly Console Display Manager, and other recommended utilities. It also configures various system settings to optimize the user experience and provides a clean minimal and stylish i3 configuration.   
 
 ## Pre-Installation
 
