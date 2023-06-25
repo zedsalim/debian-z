@@ -57,3 +57,13 @@ for_window [class="AlacrittyFloating"] floating enable, move position center
 
 # Open sxiv in fullscreen mode
 for_window [class="Sxiv"] fullscreen
+
+# Open specific applications in floating mode
+for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="gnome-disks"] floating enable border pixel 1
+for_window [class="Galculator"] floating enable border pixel 1
+for_window [class="GParted"] floating enable border normal
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="Pavucontrol"] floating enable
+for_window [class="qt5ct"] floating enable sticky enable border normal
+for_window [class="Simple-scan"] floating enable border normal

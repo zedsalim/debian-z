@@ -1,7 +1,7 @@
 super + shift + h
     	mupdf "$HOME/.config/guide.pdf"
 
-alt + v
+alt + x
 	alacritty -e "ranger" ~/Downloads/Watch
 
 alt + c
@@ -10,7 +10,7 @@ alt + c
 alt + t
 	source ~/.config/scripts/themes.sh
 
-alt + s
+Print
 	feh -F "$HOME/Pictures/schedule.png"
 
 alt + b 
@@ -21,10 +21,10 @@ alt + y
 
 # BG Selector
 
-super + F1
+F1
 	source ~/.config/scripts/wallpaper-single-display.sh
 
-super + F2
+F2
 	source ~/.config/scripts/wallpaper-double-display.sh
 
 # Programs

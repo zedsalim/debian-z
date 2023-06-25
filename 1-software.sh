@@ -5,14 +5,14 @@ sudo apt install nala -y
 sudo nala update
 
 # X Window System and Input
-sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev wmctrl
+sudo nala install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev
 #brightnessctl
 
 # Python
 sudo nala install -y python3-pip
 
 # npm
-sudo nala install -y npm
+#sudo nala install -y npm
 # Java
 #sudo nala install default-jdk
 
@@ -24,7 +24,7 @@ sudo nala install -y intel-microcode
 sudo nala install -y network-manager-gnome
 
 # Appearance and Customization
-sudo nala install -y lxappearance arandr xclip
+sudo nala install -y lxappearance qt5ct arandr xclip
 
 # System Utilities
 sudo nala install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends
@@ -70,7 +70,7 @@ sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu polybar
 sudo nala install -y unzip file-roller
 
 # Text Editors
-sudo nala install -y geany vim mousepad
+sudo nala install -y vim mousepad
 
 # Image Viewer
 sudo nala install -y viewnior feh sxiv ueberzug python3-pillow
@@ -78,6 +78,9 @@ sudo nala install -y viewnior feh sxiv ueberzug python3-pillow
 
 # Media Player
 sudo nala install -y mpv
+
+# Calculator
+sudo nala install -y galculator
 
 # Document Viewer
 sudo nala install -y mupdf
