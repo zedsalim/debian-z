@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/zed/.config/wallpapers/leavs.jpg' 
