@@ -8,7 +8,8 @@ cd debian-z/theme
 tar -xf BlueSky-Clean-Dark.tar.xz
 tar xf Sunity-cursors.tar.gz
 tar xf Adwaita-dark.tar
-tar -xf Papirus.tar.xz
+tar -xf Papirus-gray.tar.xz
+tar -xf Graphite-Dark.tar.xz
 tar xzf Materia-Manjaro-gtk.tar.gz
 unzip Nordic.zip
 unzip Blackout.zip
@@ -20,9 +21,11 @@ cp -r Dracula ~/.themes
 cp -r Adwaita-dark ~/.themes
 cp -r Nordic ~/.themes 
 cp -r Blackout ~/.themes
+cp -r Graphite-Dark ~/.themes
 cp -r Materia-Manjaro-gtk ~/.themes
 cp -r Flat-Remix-Grey-Dark ~/.icons
 cp -r Papirus ~/.icons
+cp -r Papirus-Dark ~/.icons
 cp -r Dracula-icons/ ~/.icons/
 cp -r Sunity-cursors/ ~/.icons/
 

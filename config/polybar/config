@@ -1,10 +1,10 @@
 [colors]
-background = ##282a36
-background-alt = #44475a
-foreground = #f8f8f2
-primary = #bd93f9
-secondary = #d6acff
-alert = #ff6e6e
+background = #181818
+background-alt = #505050
+foreground = #f8f8f8
+primary = #878787
+secondary = #878787
+alert = #ab4642
 disabled = #00000
 
 [bar/mybar]
@@ -14,12 +14,9 @@ radius = 0.0
 background = ${colors.background}
 foreground = ${colors.foreground}
 line-size = 3pt
-border-size = 1pt
-border-color = #d6acff
 padding-left = 0
 padding-right = 1
 module-margin = 1
-;separator = |
 fixed-center = true
 separator-foreground = ${colors.disabled}
 font-0 = fixed:pixelsize=10;1
@@ -74,14 +71,6 @@ label-empty-padding = 1
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
-
-[module/filesystem]
-type = internal/fs
-interval = 25
-mount-0 = /home
-label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.disabled}
 
 [module/pulseaudio]
 type = internal/pulseaudio
