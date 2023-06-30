@@ -3,7 +3,7 @@
 sudo su
 
 mkdir -p ~/.local/share/file-manager/actions/
-touch ~/.local/share/file-manager/actions/terminal.desktop 
+touch ~/.local/share/file-manager/actions/terminal.desktop
 echo "[Desktop Entry]
 Type=Action
 Tooltip=Open Terminal
@@ -15,3 +15,5 @@ Icon=utilities-terminal
 MimeTypes=inode/directory;
 Exec=alacritty --working-directory %f
 Name=Default profile" > ~/.local/share/file-manager/actions/terminal.desktop
+
+exit

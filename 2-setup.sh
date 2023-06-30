@@ -3,6 +3,12 @@
 # Update User Directories (Documents,Downloads,...)
 xdg-user-dirs-update
 
+# Install Neovim
+git clone https://github.com/neovim/neovim
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+git checkout stable
+cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
+
 # Installing i3 gaps
 cd
 cd Downloads
@@ -17,7 +23,7 @@ sudo ninja install
 sudo nala install -y libpam0g-dev libxcb-xkb-dev
 
 # Installing Ly Console Display Manager
-cd 
+cd
 cd Downloads
 git clone --recurse-submodules https://github.com/fairyglade/ly
 cd ly/

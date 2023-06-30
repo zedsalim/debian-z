@@ -11,7 +11,8 @@ sudo nala install -y xorg xbacklight xvkbd xinput xorg-dev brightnessctl
 sudo nala install -y python3-pip
 
 # npm
-#sudo nala install -y npm
+sudo nala install -y npm
+
 # Java
 #sudo nala install default-jdk
 
@@ -31,7 +32,7 @@ sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
 
 # Terminal Emulators
-sudo nala install -y alacritty 
+sudo nala install -y alacritty
 
 # Modern replacement for ls
 sudo nala install -y exa
@@ -63,7 +64,7 @@ sudo systemctl enable bluetooth
 sudo nala install -y telegram-desktop
 
 # Menu and Window Managers
-sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu polybar 
+sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu polybar
 
 # Archive Management
 sudo nala install -y unzip file-roller
@@ -89,17 +90,10 @@ sudo nala install -y gnome-disk-utility bleachbit
 
 
 # Neovim Build prerequisites
-sudo nala install -y ninja-build gettext cmake curl
-
-# Install Neovim
-git clone https://github.com/neovim/neovim
-cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
-git checkout stable
-cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
-
+sudo nala install -y ninja-build gettext cmake curl python3.11-venv
 
 # Required packages for i3-gaps installation
-sudo nala install -y meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev i3status 
+sudo nala install -y meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev i3status cmake
 
 # Brave-Browser
 
