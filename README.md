@@ -32,12 +32,12 @@ The script installs the necessary packages and applications required for daily d
 
 ## Available Themes
 
-| BlueNova | Dracula | Darkness | Nord | Horizon | Pink |
-|--------------|--------------|--------------|--------------|--------------|--------------|
-| ![Screenshot 1]([ign]/img/bluenova/s1.png) | ![Screenshot 2]([ign]/img/dracula/s1.png) | ![Screenshot 3]([ign]/img/darkness/s1.png) | ![Screenshot 3]([ign]/img/nord/s1.png) |  ![Screenshot 3]([ign]/img/horizon/s1.png) |  ![Screenshot 3]([ign]/img/pink/s1.png) |    
-| ![Screenshot 1]([ign]/img/bluenova/s2.png) | ![Screenshot 2]([ign]/img/dracula/s2.png) | ![Screenshot 3]([ign]/img/darkness/s2.png) | ![Screenshot 3]([ign]/img/nord/s2.png) |  ![Screenshot 3]([ign]/img/horizon/s2.png) |  ![Screenshot 3]([ign]/img/pink/s2.png) |
-| ![Screenshot 1]([ign]/img/bluenova/s3.png) | ![Screenshot 2]([ign]/img/dracula/s3.png) | ![Screenshot 3]([ign]/img/darkness/s3.png) | ![Screenshot 3]([ign]/img/nord/s3.png) |  ![Screenshot 3]([ign]/img/horizon/s3.png) |  ![Screenshot 3]([ign]/img/pink/s3.png) |
-| ![Screenshot 1]([ign]/img/bluenova/s4.png) | ![Screenshot 2]([ign]/img/dracula/s4.png) | ![Screenshot 3]([ign]/img/darkness/s4.png) | ![Screenshot 3]([ign]/img/nord/s4.png) |  ![Screenshot 3]([ign]/img/horizon/s4.png) |  ![Screenshot 3]([ign]/img/pink/s4.png) |
+| Moon (Default) | BlueNova | Dracula | Darkness | Nord | Horizon | Pink |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+| ![Screenshot 1]([ign]/img/moon/s1.png) | ![Screenshot 1]([ign]/img/bluenova/s1.png) | ![Screenshot 2]([ign]/img/dracula/s1.png) | ![Screenshot 3]([ign]/img/darkness/s1.png) | ![Screenshot 3]([ign]/img/nord/s1.png) |  ![Screenshot 3]([ign]/img/horizon/s1.png) |  ![Screenshot 3]([ign]/img/pink/s1.png) |    
+| ![Screenshot 1]([ign]/img/moon/s2.png) | ![Screenshot 1]([ign]/img/bluenova/s2.png) | ![Screenshot 2]([ign]/img/dracula/s2.png) | ![Screenshot 3]([ign]/img/darkness/s2.png) | ![Screenshot 3]([ign]/img/nord/s2.png) |  ![Screenshot 3]([ign]/img/horizon/s2.png) |  ![Screenshot 3]([ign]/img/pink/s2.png) |
+| ![Screenshot 1]([ign]/img/moon/s3.png) | ![Screenshot 1]([ign]/img/bluenova/s3.png) | ![Screenshot 2]([ign]/img/dracula/s3.png) | ![Screenshot 3]([ign]/img/darkness/s3.png) | ![Screenshot 3]([ign]/img/nord/s3.png) |  ![Screenshot 3]([ign]/img/horizon/s3.png) |  ![Screenshot 3]([ign]/img/pink/s3.png) |
+| ![Screenshot 1]([ign]/img/moon/s4.png) | ![Screenshot 1]([ign]/img/bluenova/s4.png) | ![Screenshot 2]([ign]/img/dracula/s4.png) | ![Screenshot 3]([ign]/img/darkness/s4.png) | ![Screenshot 3]([ign]/img/nord/s4.png) |  ![Screenshot 3]([ign]/img/horizon/s4.png) |  ![Screenshot 3]([ign]/img/pink/s4.png) |
 
 ---
 

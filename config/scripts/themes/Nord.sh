@@ -15,4 +15,6 @@ cp ~/.config/scripts/themes/Nord/.gtkrc-2.0 ~/
 
 cp ~/.config/scripts/themes/Nord/.fehbg ~/
 
+cp ~/.config/scripts/themes/synth-shell-prompt.config ~/.config/synth-shell
+
  i3-msg restart; notify-send 'Theme Set To:' 'Nord'

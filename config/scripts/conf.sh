@@ -53,5 +53,5 @@ if [[ $config_file == ranger* ]]; then
     $config_file
 else
     # Open the selected config file with Vim
-    vim "$config_file"
+    nvim "$config_file"
 fi

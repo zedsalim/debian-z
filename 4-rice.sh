@@ -77,21 +77,8 @@ echo '# Increase volume
 
 xbindkeys -f ~/.xbindkeysrc
 #--------------------------------------------------
-sudo mkdir -p ~/.local/share/file-manager/actions/
-sudo touch ~/.local/share/file-manager/actions/terminal.desktop 
-sudo echo "[Desktop Entry]
-Type=Action
-Tooltip=Open Terminal
-Name=Open Terminal
-Profiles=profile-one;
-Icon=utilities-terminal
-
-[X-Action-Profile profile-one]
-MimeTypes=inode/directory;
-Exec=alacritty --working-directory %f
-Name=Default profile" > ~/.local/share/file-manager/actions/terminal.desktop
-#--------------------------------------------------
 cd
 cd debian-z/
 source optional/keyboard_layout.sh
+source optional/terminal_in_pcmanfm.sh
 #source optional/nvidia.sh

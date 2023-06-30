@@ -15,4 +15,6 @@ cp ~/.config/scripts/themes/Horizon/.gtkrc-2.0 ~/
 
 cp ~/.config/scripts/themes/Horizon/.fehbg ~/
 
+cp ~/.config/scripts/themes/synth-shell-prompt.config ~/.config/synth-shell
+
  i3-msg restart; notify-send 'Theme Set To:' 'Horizon'
