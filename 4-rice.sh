@@ -19,7 +19,7 @@ tar xzf Dracula-icons.tar.gz
 cp -r BlueSky-Clean-Dark ~/.themes
 cp -r Dracula ~/.themes
 cp -r Adwaita-dark ~/.themes
-cp -r Nordic ~/.themes 
+cp -r Nordic ~/.themes
 cp -r Blackout ~/.themes
 cp -r Graphite-Dark ~/.themes
 cp -r Materia-Manjaro-gtk ~/.themes
@@ -58,7 +58,7 @@ fi
 
 cd debian-z/
 sudo cp config/settings.ini ~/.config/gtk-3.0/
-cp config/.gtkrc-2.0 ~/ 
+cp config/.gtkrc-2.0 ~/
 #--------------------------------------------------
 # Fixing the volume keys
 xbindkeys --defaults > ~/.xbindkeysrc
@@ -73,7 +73,7 @@ echo '# Increase volume
 
 # Mute volume
 "amixer set Master toggle"
-   XF86AudioMute' >> ~/.xbindkeysrc
+XF86AudioMute' >> ~/.xbindkeysrc
 
 xbindkeys -f ~/.xbindkeysrc
 #--------------------------------------------------
@@ -81,4 +81,5 @@ cd
 cd debian-z/
 source optional/keyboard_layout.sh
 source optional/terminal_in_pcmanfm.sh
+source optional/nvim.sh
 #source optional/nvidia.sh
