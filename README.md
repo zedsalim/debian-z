@@ -298,7 +298,7 @@ README.md: A Markdown file serving as the main documentation or guide for this p
         <td>Moves the window in the specified direction</td>
       </tr>
       <tr>
-        <td>super + b</td>
+        <td>super + tab</td>
         <td>Focuses on the last two workspaces back and forth</td>
       </tr>
     </table>
