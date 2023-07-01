@@ -22,6 +22,9 @@ alt + l
 alt + y 
 	source ~/.config/scripts/mpv-youtube.sh
 
+alt + p 
+  pavucontrol
+
 # BG Selector
 
 F1
