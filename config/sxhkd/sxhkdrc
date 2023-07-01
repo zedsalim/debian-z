@@ -16,6 +16,9 @@ alt + s
 alt + b 
 	source ~/.config/scripts/bookmarks.sh
 
+alt + l
+	/mnt/FILES/Files/My_Stuff/mytodo/todo
+
 alt + y 
 	source ~/.config/scripts/mpv-youtube.sh
 

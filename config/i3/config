@@ -73,3 +73,7 @@ for_window [class="Lxappearance"] floating enable sticky enable border normal
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Simple-scan"] floating enable border normal
+for_window [class="Todo"] floating enable sticky enable border normal
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
