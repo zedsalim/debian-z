@@ -64,7 +64,7 @@ sudo systemctl enable bluetooth
 sudo nala install -y telegram-desktop
 
 # Menu and Window Managers
-sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu polybar
+sudo nala install -y sxhkd numlockx rofi dunst libnotify-bin picom dmenu polybar dbus-x11
 
 # Archive Management
 sudo nala install -y unzip file-roller

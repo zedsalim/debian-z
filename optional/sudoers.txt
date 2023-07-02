@@ -1,1 +1,3 @@
 zed ALL=(ALL) NOPASSWD: /usr/sbin/reboot,/usr/sbin/shutdown,/usr/bin/mount,/usr/bin/umount
+
+zed ALL=(ALL) NOPASSWD: /home/zed/.config/scripts/yt_blocker.sh

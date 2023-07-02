@@ -22,6 +22,9 @@ alt + l
 alt + y 
 	source ~/.config/scripts/mpv-youtube.sh
 
+alt + shift + y
+	sudo /home/zed/.config/scripts/yt_blocker.sh
+
 alt + p 
   pavucontrol
 
