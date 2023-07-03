@@ -25,6 +25,9 @@ alt + y
 alt + shift + y
 	sudo /home/zed/.config/scripts/yt_blocker.sh
 
+alt + z 
+	source ~/.config/scripts/bookmark_pdf.sh
+
 alt + p 
   pavucontrol
 
