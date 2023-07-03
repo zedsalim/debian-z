@@ -1,5 +1,5 @@
 super + shift + h
-    	mupdf "$HOME/.config/guide.pdf"
+  zathura "$HOME/.config/guide.pdf"
 
 alt + x
 	alacritty -e "ranger" ~/Downloads/Watch

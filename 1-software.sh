@@ -83,7 +83,7 @@ sudo nala install -y mpv
 sudo nala install -y galculator
 
 # Document Viewer
-sudo nala install -y mupdf
+sudo nala install -y zathura
 
 # Disk Utilities and Cleaning Tools
 sudo nala install -y gnome-disk-utility bleachbit
