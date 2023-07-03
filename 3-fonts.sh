@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo nala install -y fonts-font-awesome fonts-powerline
+sudo nala install -y fonts-font-awesome fonts-powerline fonts-noto fonts-sil-scheherazade fonts-dejavu
 
 fonts_dir="$HOME/.local/share/fonts"
 
