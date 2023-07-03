@@ -41,6 +41,7 @@ cp -r config/rofi/ ~/.config
 cp -r config/neofetch/ ~/.config
 cp -r config/ranger/ ~/.config
 cp -r config/polybar/ ~/.config
+cp -r config/zathura/ ~/.config
 cp config/guide.pdf ~/.config
 cp config/bookmarks.txt ~/.config
 cp -r optional/synth-shell ~/.config

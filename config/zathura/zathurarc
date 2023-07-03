@@ -1,0 +1,51 @@
+# zathurarc
+set font "DejaVu Sans"
+
+
+# colors
+set statusbar-bg "#65D1FF"
+set statusbar-fg black
+
+# settings
+set window-height 1024
+set window-width 768
+set adjust-open width
+
+# use sqlite as bookmarks database backend
+set database sqlite
+
+# key bindings
+map <PageUp> navigate previous
+map <PageDown> navigate next
+
+map + zoom in
+map - zoom out
+map r reload
+map p print
+map R rotate
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map <C-q> quit
+
+# Navigation
+map j scroll down
+map k scroll up
+map h scroll left
+map l scroll right
+
+# Bookmarks
+# map m exec set bookmark
+# map <C-1> exec "goto 1"
+# map <C-2> exec "goto 2"
+# map <C-3> exec "goto 3"
+# map <C-4> exec "goto 4"
+# map <C-5> exec "goto 5"
+# map <C-6> exec "goto 6"
+# map <C-7> exec "goto 7"
+# map <C-8> exec "goto 8"
+# map <C-9> exec "goto 9"
+# map <C-0> exec "goto 10"
+
+set selection-clipboard clipboard
+
