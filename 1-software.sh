@@ -5,7 +5,7 @@ sudo apt install nala -y
 sudo nala update
 
 # X Window System and Input
-sudo nala install -y xorg xbacklight xvkbd xinput xorg-dev xdotool brightnessctl
+sudo nala install -y xorg xbacklight xinput xorg-dev xdotool brightnessctl
 
 # Python
 sudo nala install -y python3-pip
