@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
     fi
 fi
 
-alias al='vim ~/.bashrc'
+alias al='nvim ~/.bashrc'
 alias alu='source ~/.bashrc'
 alias ss='sudo shutdown now'
 alias rb='sudo reboot'
@@ -138,7 +138,8 @@ alias sts='git status'
 alias add='git add .'
 alias cmt='git commit -m'
 alias push='git push'
-neofetch
+ufetch
+#neofetch
 ##-----------------------------------------------------
 ## synth-shell-prompt.sh
 if [ -f ~/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then

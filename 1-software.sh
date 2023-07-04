@@ -47,7 +47,9 @@ sudo nala install -y xfce4-settings xfce4-power-manager
 sudo nala install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
 
 # System Information and Monitoring
-sudo nala install -y neofetch htop
+sudo nala install -y htop
+
+# sudo nala install -y neofetch
 
 # Screenshots
 sudo nala install -y flameshot

@@ -38,12 +38,13 @@ cp -r config/scripts/ ~/.config
 cp -r config/alacritty/ ~/.config
 cp -r config/dunst/ ~/.config
 cp -r config/rofi/ ~/.config
-cp -r config/neofetch/ ~/.config
+# cp -r config/neofetch/ ~/.config
 cp -r config/ranger/ ~/.config
 cp -r config/polybar/ ~/.config
 cp -r config/zathura/ ~/.config
 cp config/guide.pdf ~/.config
 cp config/bookmarks.txt ~/.config
+sudo cp config/ufetch /usr/bin/
 cp -r optional/synth-shell ~/.config
 cp optional/.bashrc ~/
 cp optional/.inputrc ~/
