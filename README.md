@@ -388,11 +388,3 @@ README.md: A Markdown file serving as the main documentation or guide for this p
       </tr>
     </table>
 </pre>
-
-## Contact
-
-* [Facebook](https://facebook.com/sxaliim) 
-* [Telegram](https://t.me/sxalim) 
-* salim.zaidi@univ-bouira.dz
-
-
