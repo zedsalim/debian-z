@@ -96,295 +96,107 @@ README.md: A Markdown file serving as the main documentation or guide for this p
 ## Usage
 > The Super key is the Windows key
 <h2>Keybindings:</h2>
-  <pre>
-    <h3>Window Manager Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + shift + h</td>
-        <td>Opens this Guide</td>
-      </tr>
-      <tr>
-        <td>super + Escape</td>
-        <td>Reloads sxhkd config</td>
-      </tr>
-      <tr>
-        <td>super + q</td>
-        <td>Closes the current window</td>
-      </tr>
-      <tr>
-        <td>super + shift + c</td>
-        <td>Reloads the i3 window manager configuration</td>
-      </tr>
-      <tr>
-        <td>super + shift + r</td>
-        <td>Restarts the i3 window manager</td>
-      </tr>
-      <tr>
-        <td>super + shift + q</td>
-        <td>Exits i3 window manager</td>
-      </tr>
-    </table>
-    <h3>Application Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + Return (Enter)</td>
-        <td>Launches alacritty terminal</td>
-      </tr>
-      <tr>
-        <td>super + shift + Return (Enter)</td>
-        <td>Launches alacritty terminal in floating mode</td>
-      </tr>
-      <tr>
-        <td>super + p</td>
-        <td>Opens rofi application</td>
-      </tr>
-      <tr>
-        <td>alt + w</td>
-        <td>Opens rofi (show mode)</td>
-      </tr>
-      <tr>
-        <td>super + n</td>
-        <td>Opens pcmanfm file manager</td>
-      </tr>
-      <tr>
-        <td>super + r</td>
-        <td>Opens ranger file manager</td>
-      </tr>
-      <tr>
-        <td>super + g</td>
-        <td>Opens Github Desktop (not installed by default)</td>
-      </tr>
-      <tr>
-        <td>super + w</td>
-        <td>Launches Brave Browser</td>
-      </tr>
-      <tr>
-        <td>super + c</td>
-        <td>Launches VSCodium</td>
-      </tr>
-      <tr>
-        <td>super + d</td>
-        <td>Launches Discord (not installed by default)</td>
-      </tr>
-      <tr>
-        <td>super + t</td>
-        <td>Launches Telegram Desktop</td>
-      </tr>
-      <tr>
-        <td>Print (Impr écran Syst)</td>
-        <td>Opens flameshot screenshot tool (GUI mode)</td>
-      </tr>
-    </table>
-    <h3>Audio Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>XF86AudioMute</td>
-        <td>Toggles audio mute</td>
-      </tr>
-      <tr>
-        <td>XF86AudioLowerVolume</td>
-        <td>Decreases audio volume by 2%</td>
-      </tr>
-      <tr>
-        <td>XF86AudioRaiseVolume</td>
-        <td>Increases audio volume by 2%</td>
-      </tr>
-    </table>
-    <h3>Brightness Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>XF86MonBrightnessDown</td>
-        <td>Decreases audio volume by 10%</td>
-      </tr>
-      <tr>
-        <td>XF86MonBrightnessUp</td>
-        <td>Increases audio volume by 10%</td>
-      </tr>
-    </table> 
-    <h3>i3 Window Manager Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + v</td>
-        <td>Splits the current container vertically</td>
-      </tr>
-      <tr>
-        <td>super + h</td>
-        <td>Splits the current container horizontally</td>
-      </tr>
-      <tr>
-        <td>super + f</td>
-        <td>Toggles fullscreen mode for the current container</td>
-      </tr>
-      <tr>
-        <td>super + shift + f</td>
-        <td>Toggles floating mode for the current container</td>
-      </tr>
-      <tr>
-        <td>super + control + space</td>
-        <td>Toggles focus between tiling and floating mode</td>
-      </tr>
-      <tr>
-        <td>super + alt + a</td>
-        <td>Focuses on the parent container</td>
-      </tr>
-      <tr>
-        <td>alt + shift + s</td>
-        <td>Change container layout to stacked</td>
-      </tr>
-      <tr>
-        <td>alt + shift + t</td>
-        <td>Change container layout to tabbed</td>
-      </tr>
-      <tr>
-        <td>alt + shift + e</td>
-        <td>Change container layout to toggle split</td>
-      </tr>
-    </table>
-    <h3>Workspace Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + [1->9,0]</td>
-        <td>Switches to the specified workspace</td>
-      </tr>
-      <tr>
-        <td>super + shift + [1->9,0]</td>
-        <td>Moves the current container to the specified workspace</td>
-      </tr>
-    </table>
-    <h3>Window Movement Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + [h, j, k, l]</td>
-        <td>Focuses on the window in the specified direction</td>
-      </tr>
-      <tr>
-        <td>super + shift + [h, j, k, l]</td>
-        <td>Moves the window in the specified direction</td>
-      </tr>
-      <tr>
-        <td>super + [Left, Down, Up, Right]</td>
-        <td>Focuses on the window in the specified direction</td>
-      </tr>
-      <tr>
-        <td>super + shift + [Left, Down, Up, Right]</td>
-        <td>Moves the window in the specified direction</td>
-      </tr>
-      <tr>
-        <td>super + tab</td>
-        <td>Focuses on the last two workspaces back and forth</td>
-      </tr>
-    </table>
-    <h3>Additional Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>alt + x (Where I keep all the courses and videos I need to learn from)</td>
-        <td>Opens ranger in ~/Downloads/Watch (not created by default)</td>
-      </tr>
-      <tr>
-        <td>alt + c</td>
-        <td>Opens the confige files that i edit frequently</td>
-      </tr>
-      <tr>
-        <td>alt + t</td>
-        <td>Change the theme on the fly</td>
-      </tr>
-      <tr>
-        <td>alt + b</td>
-        <td>Opens my bookmarks (add yours inside ~/config/bookmarks.txt)</td>
-      </tr>
-      <tr>
-        <td>alt + y (you must copy first the URL of a youtube video)</td>
-        <td>Script that plays youtube videos using the mpv</td>
-      </tr>
-      <tr>
-        <td>alt + s (Create your own schedule in ~/Pictures/schedule.png)</td>
-        <td>Opens my Work/Studies Schedule</td>
-      </tr>
-      <tr>
-        <td>F1 (Add your wallpapers in ~/.config/wallpapers/)</td>
-        <td>Changing the wallpaper for the main monitor</td>
-      </tr>
-      <tr>
-        <td>F2</td>
-        <td>Changing the wallpaper for two monitors</td>
-      </tr>
-    </table> 
-    <h3>Gaps Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + shift + n</td>
-        <td>Adjusts inner and outer gaps simultaneously</td>
-      </tr>
-      <tr>
-        <td>super + x</td>
-        <td>Increases outer gaps by 5</td>
-      </tr>
-      <tr>
-        <td>super + shift + x</td>
-        <td>Decreases outer gaps by 5</td>
-      </tr>
-      <tr>
-        <td>super + z</td>
-        <td>Increases inner gaps by 5</td>
-      </tr>
-      <tr>
-        <td>super + shift + z</td>
-        <td>Decreases inner gaps by 5</td>
-      </tr>
-      <tr>
-        <td>super + ctrl + [Left, Down, Up, Right]</td>
-        <td>Resizes the current window</td>
-      </tr>
-    </table>
-    <h3>System Keybindings:</h3>
-    <table>
-      <tr>
-        <th>Keybinding</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td>super + shift + b</td>
-        <td>Reboots the system (sudo reboot)</td>
-      </tr>
-      <tr>
-        <td>super + shift + s</td>
-        <td>Shuts down the system (sudo shutdown now)</td>
-      </tr>
-    </table>
-</pre>
+ ### Window Manager Keybindings:
+
+| Keybinding        | Action                                      |
+| ----------------- | ------------------------------------------- |
+| super + shift + h | Opens this Guide                            |
+| super + Escape    | Reloads sxhkd config                        |
+| super + q         | Closes the current window                   |
+| super + shift + c | Reloads the i3 window manager configuration |
+| super + shift + r | Restarts the i3 window manager              |
+| super + shift + q | Exits i3 window manager                     |
+
+### Application Keybindings:
+
+| Keybinding                     | Action                                          |
+| ------------------------------ | ----------------------------------------------- |
+| super + Return (Enter)         | Launches alacritty terminal                     |
+| super + shift + Return (Enter) | Launches alacritty terminal in floating mode    |
+| super + p                      | Opens rofi application                          |
+| alt + w                        | Opens rofi (show mode)                          |
+| super + n                      | Opens pcmanfm file manager                      |
+| super + r                      | Opens ranger file manager                       |
+| super + g                      | Opens Github Desktop (not installed by default) |
+| super + w                      | Launches Brave Browser                          |
+| super + c                      | Launches VSCodium                               |
+| super + d                      | Launches Discord (not installed by default)     |
+| super + t                      | Launches Telegram Desktop                       |
+| Print (Impr écran Syst)        | Opens flameshot screenshot tool (GUI mode)      |
+
+### Audio Keybindings:
+
+| Keybinding           | Action                       |
+| -------------------- | ---------------------------- |
+| XF86AudioMute        | Toggles audio mute           |
+| XF86AudioLowerVolume | Decreases audio volume by 2% |
+| XF86AudioRaiseVolume | Increases audio volume by 2% |
+
+### Brightness Keybindings:
+
+| Keybinding            | Action                        |
+| --------------------- | ----------------------------- |
+| XF86MonBrightnessDown | Decreases audio volume by 10% |
+| XF86MonBrightnessUp   | Increases audio volume by 10% |
+
+### i3 Window Manager Keybindings:
+
+| Keybinding              | Action                                            |
+| ----------------------- | ------------------------------------------------- |
+| super + v               | Splits the current container vertically           |
+| super + h               | Splits the current container horizontally         |
+| super + f               | Toggles fullscreen mode for the current container |
+| super + shift + f       | Toggles floating mode for the current container   |
+| super + control + space | Toggles focus between tiling and floating mode    |
+| super + alt + a         | Focuses on the parent container                   |
+| alt + shift + s         | Change container layout to stacked                |
+| alt + shift + t         | Change container layout to tabbed                 |
+| alt + shift + e         | Change container layout to toggle split           |
+
+### Workspace Keybindings:
+
+| Keybinding                 | Action                                                 |
+| -------------------------- | ------------------------------------------------------ |
+| super + \[1->9,0\]         | Switches to the specified workspace                    |
+| super + shift + \[1->9,0\] | Moves the current container to the specified workspace |
+
+### Window Movement Keybindings:
+
+| Keybinding                                | Action                                            |
+| ----------------------------------------- | ------------------------------------------------- |
+| super + \[h, j, k, l\]                    | Focuses on the window in the specified direction  |
+| super + shift + \[h, j, k, l\]            | Moves the window in the specified direction       |
+| super + \[Left, Down, Up, Right\]         | Focuses on the window in the specified direction  |
+| super + shift + \[Left, Down, Up, Right\] | Moves the window in the specified direction       |
+| super + tab                               | Focuses on the last two workspaces back and forth |
+
+### Additional Keybindings:
+
+| Keybinding                                                             | Action                                                       |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------ |
+| alt + x (Where I keep all the courses and videos I need to learn from) | Opens ranger in ~/Downloads/Watch (not created by default)   |
+| alt + c                                                                | Opens the config files that I edit frequently                |
+| alt + t                                                                | Change the theme on the fly                                  |
+| alt + b                                                                | Opens my bookmarks (add yours inside ~/config/bookmarks.txt) |
+| alt + y (you must copy first the URL of a youtube video)               | Script that plays youtube videos using the mpv               |
+| alt + s (Create your own schedule in ~/Pictures/schedule.png)          | Opens my Work/Studies Schedule                               |
+| F1 (Add your wallpapers in ~/.config/wallpapers/)                      | Changing the wallpaper for the main monitor                  |
+| F2                                                                     | Changing the wallpaper for two monitors                      |
+
+### Gaps Keybindings:
+
+| Keybinding                               | Action                                      |
+| ---------------------------------------- | ------------------------------------------- |
+| super + shift + n                        | Adjusts inner and outer gaps simultaneously |
+| super + x                                | Increases outer gaps by 5                   |
+| super + shift + x                        | Decreases outer gaps by 5                   |
+| super + z                                | Increases inner gaps by 5                   |
+| super + shift + z                        | Decreases inner gaps by 5                   |
+| super + ctrl + \[Left, Down, Up, Right\] | Resizes the current window                  |
+
+### System Keybindings:
+
+| Keybinding        | Action                                    |
+| ----------------- | ----------------------------------------- |
+| super + shift + b | Reboots the system (sudo reboot)          |
+| super + shift + s | Shuts down the system (sudo shutdown now) |
