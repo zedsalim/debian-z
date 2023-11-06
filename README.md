@@ -96,6 +96,7 @@ README.md: A Markdown file serving as the main documentation or guide for this p
 ## Usage
 > The Super key is the Windows key
 <h2>Keybindings:</h2>
+
  ### Window Manager Keybindings:
 
 | Keybinding        | Action                                      |
