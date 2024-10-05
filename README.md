@@ -1,9 +1,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zedsalim/debian-z">
-    <img src="[ign]/logo.png" alt="Logo" width="70%">
-  </a>
+    <img src="https://raw.githubusercontent.com/zedsalim/debian-z/refs/heads/master/%5Bign%5D/logo.png" alt="Logo" width="70%">
 
   <h3 align="center">Debian Minimal Setup with i3</h3>
 
